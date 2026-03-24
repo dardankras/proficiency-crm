@@ -5,23 +5,23 @@
 }
  
 :root {
-  --navy: #0f1f3d;
-  --navy-mid: #1a3158;
-  --navy-light: #253f6a;
-  --amber: #f5a623;
-  --amber-light: #ffd280;
-  --slate: #8899b4;
-  --bg: #f4f6fa;
+  --navy: #004d00;
+  --navy-mid: #006600;
+  --navy-light: #1a7a1a;
+  --amber: #c8a415;
+  --amber-light: #e6cc5a;
+  --slate: #88a98e;
+  --bg: #f4f8f4;
   --surface: #ffffff;
-  --border: #dce3ef;
-  --text: #1a2540;
-  --text-muted: #6b7a99;
+  --border: #d4e4d6;
+  --text: #1a3320;
+  --text-muted: #5c7a62;
   --green: #22c55e;
   --red: #ef4444;
   --yellow: #f59e0b;
   --blue: #3b82f6;
   --radius: 8px;
-  --shadow: 0 1px 4px rgba(15, 31, 61, 0.08);
+  --shadow: 0 1px 4px rgba(0, 77, 0, 0.08);
 }
  
 body {
@@ -64,6 +64,13 @@ body {
   border-bottom: 1px solid var(--navy-light);
 }
  
+.sidebar-logo-img {
+  width: 100%;
+  max-width: 160px;
+  height: auto;
+  filter: brightness(0) invert(1);
+}
+
 .sidebar-logo .brand {
   font-size: 15px;
   font-weight: 700;
@@ -104,7 +111,7 @@ body {
   padding: 8px 10px;
   border-radius: 6px;
   cursor: pointer;
-  color: #b8c8e0;
+  color: #b0d4b4;
   font-size: 13px;
   transition: all 0.15s;
   margin-bottom: 2px;
@@ -286,7 +293,7 @@ tr:hover td { background: #f8fafc; }
 .badge-amber  { background: #fef3c7; color: #92400e; }
 .badge-blue   { background: #dbeafe; color: #1d4ed8; }
 .badge-slate  { background: #f1f5f9; color: #475569; }
-.badge-navy   { background: #e0e7ff; color: #3730a3; }
+.badge-navy   { background: #dcfce7; color: #004d00; }
  
 /* ---- Forms ---- */
 .form-grid {
@@ -317,7 +324,7 @@ input, select, textarea {
  
 input:focus, select:focus, textarea:focus {
   border-color: var(--navy-light);
-  box-shadow: 0 0 0 3px rgba(15, 31, 61, 0.08);
+  box-shadow: 0 0 0 3px rgba(0, 77, 0, 0.08);
 }
  
 textarea { resize: vertical; min-height: 60px; }
@@ -326,7 +333,7 @@ textarea { resize: vertical; min-height: 60px; }
 .modal-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(15, 31, 61, 0.5);
+  background: rgba(0, 77, 0, 0.5);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -342,7 +349,7 @@ textarea { resize: vertical; min-height: 60px; }
   max-height: 85vh;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 20px 60px rgba(15, 31, 61, 0.2);
+  box-shadow: 0 20px 60px rgba(0, 77, 0, 0.2);
 }
  
 .modal-header {

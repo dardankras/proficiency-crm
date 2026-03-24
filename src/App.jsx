@@ -19,7 +19,7 @@ function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebar-logo">
-        <div className="brand">Proficiency</div>
+        <img src="/logo.png" alt="Proficiency Design & Build" className="sidebar-logo-img" />
         <div className="role">Project CRM</div>
         <div className="amber-bar" />
       </div>
