@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(git init:*)",
+      "Bash(printf:*)",
+      "Bash(git -C /Users/dardankras/proficiency-crm add -A)",
+      "Bash(git -C /Users/dardankras/proficiency-crm status)"
+    ]
+  }
+}
